@@ -1228,15 +1228,15 @@ margin-bottom: 16px;
 }
 
 .modal {
-    width: 408px;
+    width: 288px;
     background-color: #fcfcfc;
     border-radius: 4px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 72px 24px 24px;
-    min-height: 584px;
+    padding: 72px 16px 24px;
+    min-height: 623px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1310,7 +1310,7 @@ margin-bottom: 16px;
 
 .input-container {
     position: relative;
-    width: 360px;
+    width: 256px;
     height: 40px;
     margin-bottom: 8px;
 }
@@ -1319,7 +1319,7 @@ margin-bottom: 16px;
     font-size: 12px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    width: 360px;
+    width: 256px;
     height: 40px;
     background-color: transparent;
     padding-left: 38px;
@@ -1347,7 +1347,7 @@ margin-bottom: 16px;
 .comment-modal-field {
     position: relative;
     margin-bottom: 16px;
-    width: 360px;
+    width: 256px;
 }
 
 .modal-label {
@@ -1366,6 +1366,7 @@ margin-bottom: 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: rgba(46, 47, 66, 0.4);
     font-size: 12px;
+    font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
     resize: none;
@@ -1392,8 +1393,11 @@ margin-bottom: 16px;
 .checkbox-modal-label {
     color: #8e8f99;
     font-size: 12px;
+    font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .checkbox-icon-field {
@@ -1410,6 +1414,7 @@ margin-bottom: 16px;
     fill: transparent;
     margin-right: 8px;
 }
+
 
 .checkbox-icon:checked {
     fill: transparent;
@@ -1454,4 +1459,26 @@ margin-bottom: 16px;
 .modal-btn-send:hover,
 .modal-btn-send:focus {
     background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+}
+
+.input-container {
+    width: 360px;
+}
+
+.modal-input {
+    width: 360px;
+}
+
+.comment-modal-field {
+    width: 360px;
+}
+
 }
