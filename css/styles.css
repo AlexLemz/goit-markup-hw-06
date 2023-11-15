@@ -750,12 +750,11 @@ margin-top: 8px;
 @media screen and (min-width: 1158px) {
 
 .team {
-    padding: 120px 0 120px 0;
 }
 
 .team-container {
     max-width: 1158px;
-    
+    padding: 120px 0 120px 0;
 }
 
 .container-name {
@@ -1133,7 +1132,7 @@ margin-bottom: 16px;
 }
 
 
-    /**====================subscribe==============================*/
+    /**====================subscribe768==============================*/
 
 
 .footer-subscribe-container {
@@ -1192,7 +1191,7 @@ margin-bottom: 16px;
 }
 
 
-/**====================subscribe==============================*/
+/**====================subscribe1158==============================*/
 
 
 .footer-subscribe-container {
@@ -1380,6 +1379,7 @@ margin-bottom: 16px;
 
 .checkbox-modal-field {
     display: flex;
+    align-items: center;
     margin-bottom: 24px;
 }
 
@@ -1397,12 +1397,12 @@ margin-bottom: 16px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .checkbox-icon-field {
-    width: 16px;
-    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
