@@ -1431,6 +1431,7 @@ margin-bottom: 16px;
     height: 100%;
 }
 
+
 .privacy-policy-link {
     color: #4d5ae5;
     text-decoration-line: underline;
@@ -1480,5 +1481,10 @@ margin-bottom: 16px;
 .comment-modal-field {
     width: 360px;
 }
+
+.checkbox-modal-label {
+    align-items: flex-end;
+}
+
 
 }
